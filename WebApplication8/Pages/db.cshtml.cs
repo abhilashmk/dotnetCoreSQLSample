@@ -24,9 +24,9 @@ namespace WebApplication8.Pages
 
                 builder.DataSource = "dotnetsp.database.windows.net";
 
-                builder.UserID = "abhilash";
+                builder.UserID = "";
 
-                builder.Password = "Lssetup1!";
+                builder.Password = "";
 
                 builder.InitialCatalog = "dotnetSP";
 
