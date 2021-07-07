@@ -1,0 +1,11 @@
+﻿@page
+@model WebApplication8.Pages.dbModel
+@{
+    ViewData["Title"] = "DB Results";
+}
+<h1 class="text-center">DB RESULTS</h1>
+
+@foreach (var person in Model.results)
+{
+<p>@person</p>
+}
